@@ -1,0 +1,460 @@
+/* comman classes */
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.tdec
+{
+text-decoration: none;
+}
+
+.anchor
+{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+.topbar
+{
+    width: 100%;
+    height: 50px;
+    background-color: #0b9b9b;
+    color: #fff;
+    font-size:12px;
+    text-align: center;
+    padding: 15px;
+}
+.topbar a:hover
+{
+    text-decoration: none;
+}
+
+.maincontainer
+{
+    width: 950px;
+    margin: auto;
+    
+}
+.backimg
+{
+    height: fit-content;
+background-color: aqua;
+background: url(https://cms.doctor.com/wp-content/themes/asclepius/images/svg/vvhero-fade.png);
+}
+.nav-section
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.nav-section, a{
+    color : #364343;
+}
+.box3 tdec
+{
+    margin-left: 40px;
+    color : #ec663e;    
+}
+.box2 a
+{
+margin-right: 40px;
+}
+.box3 button
+{
+    border: 1px solid #ec663e;
+    padding: 15px;
+    font-size: 16px;
+    margin-left: 40px;
+    background-color: transparent;
+}
+.box3 button:hover
+{ 
+background-color: #ec663e;
+/* color: #fff; */
+}
+
+.box3, button a:hover
+{
+ color: #fff;   
+}
+.content-section
+{
+    width: 100%;
+    height: 360px;
+    /* background-color: coral; */
+    
+    background-size: contain;
+    background-position-x: 150%;    
+}
+.sec-A
+{
+    width: 60%;
+    height: auto;
+    /* background-color: #6dbdbd; */
+    padding-top: 40px;
+    
+}
+.sec-A h1{
+    margin-top: 10px;
+}
+.sec-A p{
+    margin: 20px 0px;
+    line-height: 25px;
+}
+.sec-A button{
+    padding:15px 40px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: #ec663e;
+    border: none;
+    color: #fff;
+}
+.home-section
+{
+    background-color:#f4f8f8;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sec-A, a{
+    padding-bottom: 30px;
+}
+.LR-section
+{
+    width: 950px;
+    max-width: 100%;
+    height: 600px;
+    /* background-color: rgb(171, 220, 243); */
+    margin:60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://cms.doctor.com/wp-content/themes/asclepius/images/svg/bg-globe.svg); 
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-Y:450px ;
+    background-position-x: 400px;
+    /* z-index: ; */
+    /* opacity: .3; */
+
+}
+
+
+
+.LR-section2
+{
+    width: 950px;
+    max-width: 100%;
+    height: 600px;
+    /* background-color: rgb(171, 220, 243); */
+    margin:60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://cms.doctor.com/wp-content/themes/asclepius/images/svg/bg-globe.svg); 
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-Y:450px ;
+    background-position-x: 400px;
+    /* z-index: ; */
+    /* opacity: .3; */
+
+}
+
+
+
+
+.LR-section3
+{
+    width: 950px;
+    max-width: 100%;
+    height: 600px;
+    /* background-color: rgb(171, 220, 243); */
+    margin:60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://cms.doctor.com/wp-content/themes/asclepius/images/svg/bg-globe.svg); 
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-Y:450px ;
+    background-position-x: 400px;
+    /* z-index: ; */
+    /* opacity: .3; */
+
+}
+.lft
+{
+    width: 60%;
+    height:auto;
+    /* background-color: blueviolet; */
+    
+}
+.lftsection
+{
+    margin-left: 100px;
+    
+}
+
+.rit-para
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    /* background-color: #fff; */
+    /* margin-left: 10px; */
+}
+.icon2
+{
+    width: 60px;
+    height: 60px;
+    background-color:#eadcf1;
+    margin-bottom: 40px;
+    border-radius: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2 div
+{
+    font-size: 28px;
+    margin-top: 30px;
+    
+}
+.icon div
+{
+    font-size: 28px;
+    margin-top: 30px;
+    
+}
+.rit-para p
+{
+    line-height: 25px;
+    letter-spacing:1px;
+    margin-bottom: 40px;
+}
+.rit-para h5
+{
+    /* line-height: 20px; */
+    letter-spacing:1px;
+    margin-bottom: 40px;
+}
+
+
+/* .rit
+{
+    width: 30%;
+    height:auto;
+    background-color: blueviolet;
+} */
+.rit
+{
+    width: 30%;
+    height: auto;
+    /* background-image: url(); */
+    /* margin-left: 30px; */
+}
+.lft-para
+{
+    width: 80%;
+    height: auto;
+    padding: 60px;
+    background-color: #fff;
+   
+}
+.icon
+{
+    width: 60px;
+    height: 60px;
+    background-color:#eadcf1;
+    margin-bottom: 40px;
+    border-radius: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon, h2
+{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.lft-para p
+{
+    line-height: 30px;
+    letter-spacing:.5px;
+    margin-bottom: 40px;
+}
+.lft-para button
+{
+    padding:15px 40px;
+    /* line-height: 25px; */
+    font-size: 18px;
+    /* margin-bottom: 20px; */
+    background-color:transparent;
+    border: 1px solid black;
+    border-radius: 5PX;
+}
+
+.lft-para button:hover
+{
+    background-color:#9b51e0;
+    border: 1px solid #9b51e0;
+    color: #fff;
+}
+.lft-section2
+{
+    background-color:#b5e0e0;
+    display: flex;
+    margin: auto 0px auto ;
+    justify-content: space-between;
+    width: 100%;
+}
+.home-section2
+{
+    background-color:#b5e0e0;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.complete-section
+{
+    width: 100%;
+    height: auto;
+    /* background-color: #ec663e; */
+    text-align: center;
+}
+.title-section h1
+{
+    margin: 100px auto 40px auto;
+}
+.title-section p
+{
+    line-height:30px;
+}
+.img-section
+{
+    /* width: 950px; */
+    width: 100%;
+    height: 500px;
+    /* background-color: blueviolet; */
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.imgs{
+    width: 950px;
+    height: 500px;
+    /* background-color: #ec663e; */
+    margin-top: 100px;
+}
+.img-div
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.img1
+{
+    width: 200px; height: 60px;
+    /* background-color: #9b51e0; */
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ready-section
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    /* background-color: #9b51e0; */
+    height: 200px;
+    background-image: url(https://cms.doctor.com/wp-content/themes/asclepius/images/default-cta-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+}
+.ready-section button
+{
+    margin-left: 150px;
+    padding: 15px 30px;
+    /* background-color: #ec663e; */
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px #afacac;
+    
+}
+.ready-section button
+{
+    background-color: transparent;
+}
+.ready-section button:hover
+{
+    background-color: #364343;
+    color: #fff;
+}
+
+.footer
+{
+    width: 100%;
+    height: 200px;
+    /* background-color: #ec663e; */
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: .5px solid #e7e9e9;
+    
+}
+.sub-section
+{
+    width: 950px;
+    height: 200px;
+    /* background-color: #b5e0e0; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+li{
+    list-style: none;
+    font-size: 12px;
+    line-height: 30px;
+    color:#364343 ;
+}
+
+.contact
+{
+    margin-right: 150px;
+}
+.find p
+{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
